@@ -10,17 +10,26 @@
 		641A3B71184C95CC00869773 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 641A3B70184C95CC00869773 /* Foundation.framework */; };
 		641A3B73184C95CC00869773 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 641A3B72184C95CC00869773 /* CoreGraphics.framework */; };
 		641A3B75184C95CC00869773 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 641A3B74184C95CC00869773 /* UIKit.framework */; };
-		641A3B7B184C95CC00869773 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 641A3B79184C95CC00869773 /* InfoPlist.strings */; };
-		641A3B7D184C95CC00869773 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 641A3B7C184C95CC00869773 /* main.m */; };
-		641A3B81184C95CC00869773 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 641A3B80184C95CC00869773 /* AppDelegate.m */; };
-		641A3B84184C95CC00869773 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 641A3B82184C95CC00869773 /* Main.storyboard */; };
-		641A3B87184C95CC00869773 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 641A3B86184C95CC00869773 /* ViewController.m */; };
-		641A3B89184C95CC00869773 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 641A3B88184C95CC00869773 /* Images.xcassets */; };
 		641A3B90184C95CC00869773 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 641A3B8F184C95CC00869773 /* XCTest.framework */; };
 		641A3B91184C95CC00869773 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 641A3B70184C95CC00869773 /* Foundation.framework */; };
 		641A3B92184C95CC00869773 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 641A3B74184C95CC00869773 /* UIKit.framework */; };
 		641A3B9A184C95CC00869773 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 641A3B98184C95CC00869773 /* InfoPlist.strings */; };
 		641A3B9C184C95CC00869773 /* WeixinActivityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 641A3B9B184C95CC00869773 /* WeixinActivityTests.m */; };
+		641A3BB4184C964700869773 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 641A3BA9184C964700869773 /* AppDelegate.m */; };
+		641A3BB5184C964700869773 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 641A3BAA184C964700869773 /* Main.storyboard */; };
+		641A3BB6184C964700869773 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 641A3BAC184C964700869773 /* InfoPlist.strings */; };
+		641A3BB7184C964700869773 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 641A3BAE184C964700869773 /* Images.xcassets */; };
+		641A3BB8184C964700869773 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 641A3BAF184C964700869773 /* main.m */; };
+		641A3BB9184C964700869773 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 641A3BB1184C964700869773 /* ViewController.m */; };
+		641A3BBA184C964700869773 /* WeixinActivity-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 641A3BB2184C964700869773 /* WeixinActivity-Info.plist */; };
+		641A3BC8184C98DE00869773 /* WeixinActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 641A3BC7184C98DE00869773 /* WeixinActivity.m */; };
+		641A3BCB184C98F400869773 /* WeixinTimelineActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 641A3BCA184C98F400869773 /* WeixinTimelineActivity.m */; };
+		641A3BD0184C9A4F00869773 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 641A3BCD184C9A4F00869773 /* libWeChatSDK.a */; };
+		641A3BD3184CA0FC00869773 /* WeixinSessionActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 641A3BD2184CA0FC00869773 /* WeixinSessionActivity.m */; };
+		641A3BF4184D5AD900869773 /* icon_session.png in Resources */ = {isa = PBXBuildFile; fileRef = 641A3BF0184D5AD900869773 /* icon_session.png */; };
+		641A3BF5184D5AD900869773 /* icon_timeline.png in Resources */ = {isa = PBXBuildFile; fileRef = 641A3BF1184D5AD900869773 /* icon_timeline.png */; };
+		641A3BF6184D5AD900869773 /* icon_timeline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 641A3BF2184D5AD900869773 /* icon_timeline@2x.png */; };
+		641A3BF7184D5AD900869773 /* icon_session@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 641A3BF3184D5AD900869773 /* icon_session@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,21 +47,34 @@
 		641A3B70184C95CC00869773 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		641A3B72184C95CC00869773 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		641A3B74184C95CC00869773 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		641A3B78184C95CC00869773 /* WeixinActivity-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WeixinActivity-Info.plist"; sourceTree = "<group>"; };
-		641A3B7A184C95CC00869773 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		641A3B7C184C95CC00869773 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		641A3B7E184C95CC00869773 /* WeixinActivity-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WeixinActivity-Prefix.pch"; sourceTree = "<group>"; };
-		641A3B7F184C95CC00869773 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		641A3B80184C95CC00869773 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		641A3B83184C95CC00869773 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		641A3B85184C95CC00869773 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		641A3B86184C95CC00869773 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		641A3B88184C95CC00869773 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		641A3B8E184C95CC00869773 /* WeixinActivityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeixinActivityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		641A3B8F184C95CC00869773 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		641A3B97184C95CC00869773 /* WeixinActivityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WeixinActivityTests-Info.plist"; sourceTree = "<group>"; };
 		641A3B99184C95CC00869773 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		641A3B9B184C95CC00869773 /* WeixinActivityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeixinActivityTests.m; sourceTree = "<group>"; };
+		641A3BA8184C964700869773 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		641A3BA9184C964700869773 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		641A3BAB184C964700869773 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		641A3BAD184C964700869773 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		641A3BAE184C964700869773 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		641A3BAF184C964700869773 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		641A3BB0184C964700869773 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		641A3BB1184C964700869773 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		641A3BB2184C964700869773 /* WeixinActivity-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "WeixinActivity-Info.plist"; sourceTree = "<group>"; };
+		641A3BB3184C964700869773 /* WeixinActivity-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WeixinActivity-Prefix.pch"; sourceTree = "<group>"; };
+		641A3BC6184C98DE00869773 /* WeixinActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeixinActivity.h; sourceTree = "<group>"; };
+		641A3BC7184C98DE00869773 /* WeixinActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeixinActivity.m; sourceTree = "<group>"; };
+		641A3BC9184C98F400869773 /* WeixinTimelineActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeixinTimelineActivity.h; sourceTree = "<group>"; };
+		641A3BCA184C98F400869773 /* WeixinTimelineActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeixinTimelineActivity.m; sourceTree = "<group>"; };
+		641A3BCD184C9A4F00869773 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		641A3BCE184C9A4F00869773 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		641A3BCF184C9A4F00869773 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		641A3BD1184CA0FC00869773 /* WeixinSessionActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeixinSessionActivity.h; sourceTree = "<group>"; };
+		641A3BD2184CA0FC00869773 /* WeixinSessionActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeixinSessionActivity.m; sourceTree = "<group>"; };
+		641A3BF0184D5AD900869773 /* icon_session.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_session.png; sourceTree = "<group>"; };
+		641A3BF1184D5AD900869773 /* icon_timeline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_timeline.png; sourceTree = "<group>"; };
+		641A3BF2184D5AD900869773 /* icon_timeline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_timeline@2x.png"; sourceTree = "<group>"; };
+		641A3BF3184D5AD900869773 /* icon_session@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_session@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +84,7 @@
 			files = (
 				641A3B73184C95CC00869773 /* CoreGraphics.framework in Frameworks */,
 				641A3B75184C95CC00869773 /* UIKit.framework in Frameworks */,
+				641A3BD0184C9A4F00869773 /* libWeChatSDK.a in Frameworks */,
 				641A3B71184C95CC00869773 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -82,7 +105,8 @@
 		641A3B64184C95CC00869773 = {
 			isa = PBXGroup;
 			children = (
-				641A3B76184C95CC00869773 /* WeixinActivity */,
+				641A3BC5184C98DE00869773 /* WeixinActivity */,
+				641A3BA7184C964700869773 /* WeixinActivityDemo */,
 				641A3B95184C95CC00869773 /* WeixinActivityTests */,
 				641A3B6F184C95CC00869773 /* Frameworks */,
 				641A3B6E184C95CC00869773 /* Products */,
@@ -109,31 +133,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		641A3B76184C95CC00869773 /* WeixinActivity */ = {
-			isa = PBXGroup;
-			children = (
-				641A3B7F184C95CC00869773 /* AppDelegate.h */,
-				641A3B80184C95CC00869773 /* AppDelegate.m */,
-				641A3B82184C95CC00869773 /* Main.storyboard */,
-				641A3B85184C95CC00869773 /* ViewController.h */,
-				641A3B86184C95CC00869773 /* ViewController.m */,
-				641A3B88184C95CC00869773 /* Images.xcassets */,
-				641A3B77184C95CC00869773 /* Supporting Files */,
-			);
-			path = WeixinActivity;
-			sourceTree = "<group>";
-		};
-		641A3B77184C95CC00869773 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				641A3B78184C95CC00869773 /* WeixinActivity-Info.plist */,
-				641A3B79184C95CC00869773 /* InfoPlist.strings */,
-				641A3B7C184C95CC00869773 /* main.m */,
-				641A3B7E184C95CC00869773 /* WeixinActivity-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		641A3B95184C95CC00869773 /* WeixinActivityTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +149,59 @@
 				641A3B98184C95CC00869773 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		641A3BA7184C964700869773 /* WeixinActivityDemo */ = {
+			isa = PBXGroup;
+			children = (
+				641A3BBB184C967D00869773 /* Supporting Files */,
+				641A3BA8184C964700869773 /* AppDelegate.h */,
+				641A3BA9184C964700869773 /* AppDelegate.m */,
+				641A3BAA184C964700869773 /* Main.storyboard */,
+				641A3BAE184C964700869773 /* Images.xcassets */,
+				641A3BB0184C964700869773 /* ViewController.h */,
+				641A3BB1184C964700869773 /* ViewController.m */,
+			);
+			path = WeixinActivityDemo;
+			sourceTree = "<group>";
+		};
+		641A3BBB184C967D00869773 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				641A3BB2184C964700869773 /* WeixinActivity-Info.plist */,
+				641A3BB3184C964700869773 /* WeixinActivity-Prefix.pch */,
+				641A3BAC184C964700869773 /* InfoPlist.strings */,
+				641A3BAF184C964700869773 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		641A3BC5184C98DE00869773 /* WeixinActivity */ = {
+			isa = PBXGroup;
+			children = (
+				641A3BCC184C9A4F00869773 /* Resources */,
+				641A3BC6184C98DE00869773 /* WeixinActivity.h */,
+				641A3BC7184C98DE00869773 /* WeixinActivity.m */,
+				641A3BC9184C98F400869773 /* WeixinTimelineActivity.h */,
+				641A3BCA184C98F400869773 /* WeixinTimelineActivity.m */,
+				641A3BD1184CA0FC00869773 /* WeixinSessionActivity.h */,
+				641A3BD2184CA0FC00869773 /* WeixinSessionActivity.m */,
+			);
+			path = WeixinActivity;
+			sourceTree = "<group>";
+		};
+		641A3BCC184C9A4F00869773 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				641A3BF0184D5AD900869773 /* icon_session.png */,
+				641A3BF1184D5AD900869773 /* icon_timeline.png */,
+				641A3BF2184D5AD900869773 /* icon_timeline@2x.png */,
+				641A3BF3184D5AD900869773 /* icon_session@2x.png */,
+				641A3BCD184C9A4F00869773 /* libWeChatSDK.a */,
+				641A3BCE184C9A4F00869773 /* WXApi.h */,
+				641A3BCF184C9A4F00869773 /* WXApiObject.h */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +280,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				641A3B89184C95CC00869773 /* Images.xcassets in Resources */,
-				641A3B7B184C95CC00869773 /* InfoPlist.strings in Resources */,
-				641A3B84184C95CC00869773 /* Main.storyboard in Resources */,
+				641A3BF4184D5AD900869773 /* icon_session.png in Resources */,
+				641A3BB7184C964700869773 /* Images.xcassets in Resources */,
+				641A3BF6184D5AD900869773 /* icon_timeline@2x.png in Resources */,
+				641A3BBA184C964700869773 /* WeixinActivity-Info.plist in Resources */,
+				641A3BF7184D5AD900869773 /* icon_session@2x.png in Resources */,
+				641A3BB5184C964700869773 /* Main.storyboard in Resources */,
+				641A3BB6184C964700869773 /* InfoPlist.strings in Resources */,
+				641A3BF5184D5AD900869773 /* icon_timeline.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +306,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				641A3B87184C95CC00869773 /* ViewController.m in Sources */,
-				641A3B81184C95CC00869773 /* AppDelegate.m in Sources */,
-				641A3B7D184C95CC00869773 /* main.m in Sources */,
+				641A3BCB184C98F400869773 /* WeixinTimelineActivity.m in Sources */,
+				641A3BC8184C98DE00869773 /* WeixinActivity.m in Sources */,
+				641A3BB9184C964700869773 /* ViewController.m in Sources */,
+				641A3BD3184CA0FC00869773 /* WeixinSessionActivity.m in Sources */,
+				641A3BB8184C964700869773 /* main.m in Sources */,
+				641A3BB4184C964700869773 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,26 +334,26 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		641A3B79184C95CC00869773 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				641A3B7A184C95CC00869773 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		641A3B82184C95CC00869773 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				641A3B83184C95CC00869773 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		641A3B98184C95CC00869773 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				641A3B99184C95CC00869773 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		641A3BAA184C964700869773 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				641A3BAB184C964700869773 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		641A3BAC184C964700869773 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				641A3BAD184C964700869773 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -376,11 +436,17 @@
 		641A3BA0184C95CC00869773 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "WeixinActivity/WeixinActivity-Prefix.pch";
-				INFOPLIST_FILE = "WeixinActivity/WeixinActivity-Info.plist";
+				GCC_PREFIX_HEADER = "WeixinActivityDemo/WeixinActivity-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/WeixinActivityDemo/WeixinActivity-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/iDay/Documents/fishead/WeixinActivity/WeixinActivity/Resources,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -389,11 +455,17 @@
 		641A3BA1184C95CC00869773 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "WeixinActivity/WeixinActivity-Prefix.pch";
-				INFOPLIST_FILE = "WeixinActivity/WeixinActivity-Info.plist";
+				GCC_PREFIX_HEADER = "WeixinActivityDemo/WeixinActivity-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/WeixinActivityDemo/WeixinActivity-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/iDay/Documents/fishead/WeixinActivity/WeixinActivity/Resources,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -460,6 +532,7 @@
 				641A3BA1184C95CC00869773 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		641A3BA2184C95CC00869773 /* Build configuration list for PBXNativeTarget "WeixinActivityTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +541,7 @@
 				641A3BA4184C95CC00869773 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
