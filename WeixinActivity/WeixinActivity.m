@@ -48,6 +48,19 @@
     }
 }
 
+- (void)setThumbImage:(SendMessageToWXReq *)req
+{
+    if (image) {
+        CGFloat width = 100.0f;
+        CGFloat height = image.size.height * 100.0f / image.size.width;
+        UIGraphicsBeginImageContext(CGSizeMake(width, height));
+        [image drawInRect:CGRectMake(0, 0, width, height)];
+        UIImage *scaledImage = UIGraphicsGetImageFromCurrentImageContext();
+        UIGraphicsEndImageContext();
+        [req.message setThumbImage:scaledImage];
+    }
+}
+
 - (void)performActivity
 {
     SendMessageToWXReq *req = [[SendMessageToWXReq alloc] init];
@@ -55,12 +68,10 @@
 //    req.bText = NO;
     req.message = WXMediaMessage.message;
     req.message.title = title;
+    [self setThumbImage:req];
     if (url) {
         WXWebpageObject *webObject = WXWebpageObject.object;
         webObject.webpageUrl = [url absoluteString];
-        if (image) {
-            req.message.thumbData = UIImageJPEGRepresentation(image, 0.6f);
-        }
         req.message.mediaObject = webObject;
     } else if (image) {
         WXImageObject *imageObject = WXImageObject.object;
