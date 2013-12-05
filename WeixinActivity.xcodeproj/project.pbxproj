@@ -32,6 +32,8 @@
 		641A3BF7184D5AD900869773 /* icon_session@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 641A3BF3184D5AD900869773 /* icon_session@2x.png */; };
 		647DC9BE184F023A00DCCA21 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 647DC9BC184F023A00DCCA21 /* LICENSE */; };
 		647DC9BF184F023A00DCCA21 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 647DC9BD184F023A00DCCA21 /* README.md */; };
+		647DC9C21850188700DCCA21 /* ios6.png in Resources */ = {isa = PBXBuildFile; fileRef = 647DC9C01850188700DCCA21 /* ios6.png */; };
+		647DC9C31850188700DCCA21 /* ios7.png in Resources */ = {isa = PBXBuildFile; fileRef = 647DC9C11850188700DCCA21 /* ios7.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +81,8 @@
 		641A3BF3184D5AD900869773 /* icon_session@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_session@2x.png"; sourceTree = "<group>"; };
 		647DC9BC184F023A00DCCA21 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		647DC9BD184F023A00DCCA21 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		647DC9C01850188700DCCA21 /* ios6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ios6.png; sourceTree = "<group>"; };
+		647DC9C11850188700DCCA21 /* ios7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ios7.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 		641A3B64184C95CC00869773 = {
 			isa = PBXGroup;
 			children = (
+				647DC9C01850188700DCCA21 /* ios6.png */,
+				647DC9C11850188700DCCA21 /* ios7.png */,
 				647DC9BC184F023A00DCCA21 /* LICENSE */,
 				647DC9BD184F023A00DCCA21 /* README.md */,
 				641A3BC5184C98DE00869773 /* WeixinActivity */,
@@ -289,7 +295,9 @@
 				641A3BF4184D5AD900869773 /* icon_session.png in Resources */,
 				641A3BB7184C964700869773 /* Images.xcassets in Resources */,
 				647DC9BF184F023A00DCCA21 /* README.md in Resources */,
+				647DC9C21850188700DCCA21 /* ios6.png in Resources */,
 				641A3BF6184D5AD900869773 /* icon_timeline@2x.png in Resources */,
+				647DC9C31850188700DCCA21 /* ios7.png in Resources */,
 				641A3BBA184C964700869773 /* WeixinActivity-Info.plist in Resources */,
 				641A3BF7184D5AD900869773 /* icon_session@2x.png in Resources */,
 				641A3BB5184C964700869773 /* Main.storyboard in Resources */,
