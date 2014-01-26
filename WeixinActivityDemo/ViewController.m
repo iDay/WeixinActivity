@@ -7,8 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "WeixinSessionActivity.h"
-#import "WeixinTimelineActivity.h"
+#import "WeixinActivity.h"
 
 @interface ViewController () {
     NSArray *activity;

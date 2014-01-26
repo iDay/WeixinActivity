@@ -6,8 +6,8 @@
 //  Copyright (c) 2013年 Johnny iDay. All rights reserved.
 //
 
-#import "WeixinActivity.h"
+#import "WeixinActivityBase.h"
 
-@interface WeixinTimelineActivity : WeixinActivity
+@interface WeixinTimelineActivity : WeixinActivityBase
 
 @end
