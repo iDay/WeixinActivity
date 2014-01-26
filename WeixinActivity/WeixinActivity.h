@@ -6,13 +6,10 @@
 //  Copyright (c) 2014年 Johnny iDay. All rights reserved.
 //
 
-#ifndef WeixinActivity_WeixinActivity_h
-#define WeixinActivity_WeixinActivity_h
+#import <Foundation/Foundation.h>
 
-#include "WeixinTimelineActivity.h"
-#include "WeixinSessionActivity.h"
-
-#endif
+#import "WeixinTimelineActivity.h"
+#import "WeixinSessionActivity.h"
 
 @interface WeixinActivity : NSObject
 
