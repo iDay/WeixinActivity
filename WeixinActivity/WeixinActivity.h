@@ -13,3 +13,7 @@
 #include "WeixinSessionActivity.h"
 
 #endif
+
+@interface WeixinActivity : NSObject
+
+@end
