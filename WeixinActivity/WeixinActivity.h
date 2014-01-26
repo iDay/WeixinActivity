@@ -9,7 +9,7 @@
 #ifndef WeixinActivity_WeixinActivity_h
 #define WeixinActivity_WeixinActivity_h
 
-#import "WeixinTimelineActivity.h"
-#import "WeixinSessionActivity.h"
+#include "WeixinTimelineActivity.h"
+#include "WeixinSessionActivity.h"
 
 #endif
