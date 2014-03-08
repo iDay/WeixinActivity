@@ -22,12 +22,14 @@
 
 - (BOOL)canPerformWithActivityItems:(NSArray *)activityItems
 {
-    for (id activityItem in activityItems) {
-        if ([activityItem isKindOfClass:[UIImage class]]) {
-            return YES;
-        }
-        if ([activityItem isKindOfClass:[NSURL class]]) {
-            return YES;
+    if ([WXApi isWXAppInstalled] && [WXApi isWXAppSupportApi]) {
+        for (id activityItem in activityItems) {
+            if ([activityItem isKindOfClass:[UIImage class]]) {
+                return YES;
+            }
+            if ([activityItem isKindOfClass:[NSURL class]]) {
+                return YES;
+            }
         }
     }
     return NO;
