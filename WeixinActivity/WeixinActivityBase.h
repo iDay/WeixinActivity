@@ -16,4 +16,6 @@
     enum WXScene scene;
 }
 
+- (void)setThumbImage:(SendMessageToWXReq *)req;
+
 @end
