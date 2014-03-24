@@ -26,7 +26,7 @@
     req.scene = scene;
     //    req.bText = NO;
     req.message = WXMediaMessage.message;
-    req.message.title = [[[NSBundle mainBundle] infoDictionary][@"CFBundleDisplayName"] stringByAppendingString:@" 分享"];
+    req.message.title = [NSString stringWithFormat:NSLocalizedString(@"%@ Share",nil), [[NSBundle mainBundle] infoDictionary][@"CFBundleDisplayName"]];
     req.message.description = title;
     [self setThumbImage:req];
     if (url) {
