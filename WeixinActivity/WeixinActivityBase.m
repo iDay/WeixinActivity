@@ -69,7 +69,12 @@
     req.scene = scene;
 //    req.bText = NO;
     req.message = WXMediaMessage.message;
-    req.message.title = title;
+    if (scene == WXSceneSession) {
+        req.message.title = [NSString stringWithFormat:NSLocalizedString(@"%@ Share",nil), [[NSBundle mainBundle] infoDictionary][@"CFBundleDisplayName"]];
+        req.message.description = title;
+    } else {
+        req.message.title = title;
+    }
     [self setThumbImage:req];
     if (url) {
         WXWebpageObject *webObject = WXWebpageObject.object;
