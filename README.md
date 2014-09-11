@@ -27,4 +27,4 @@ UIActivityViewController *activityView = [[UIActivityViewController alloc] initW
 ````
 
 ## 微信开放平台文档看这里：
-http://open.weixin.qq.com/document/gettingstart/ios/?lang=zh_CN
+https://open.weixin.qq.com/cgi-bin/frame?t=resource/res_main_tmpl&lang=zh_CN
