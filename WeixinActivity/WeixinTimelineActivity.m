@@ -21,7 +21,7 @@
 
 - (UIImage *)activityImage
 {
-    return [UIImage imageNamed:@"icon_timeline.png"];
+    return [[[UIDevice currentDevice] systemVersion] intValue] >= 8 ? [UIImage imageNamed:@"icon_timeline-8.png"] : [UIImage imageNamed:@"icon_timeline.png"];
 }
 
 - (NSString *)activityTitle

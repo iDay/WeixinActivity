@@ -12,7 +12,7 @@
 
 - (UIImage *)activityImage
 {
-    return [UIImage imageNamed:@"icon_session.png"];
+    return [[[UIDevice currentDevice] systemVersion] intValue] >= 8 ? [UIImage imageNamed:@"icon_session-8.png"] : [UIImage imageNamed:@"icon_session.png"];
 }
 
 - (NSString *)activityTitle
