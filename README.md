@@ -2,6 +2,7 @@ WeixinActivity
 ==============
 ![ios6](https://raw.github.com/iDay/WeixinActivity/master/ios6.png)
 ![ios7](https://raw.github.com/iDay/WeixinActivity/master/ios7.png)
+![ios8](https://raw.github.com/iDay/WeixinActivity/master/ios8.png)
 
 ## Requirements
 
