@@ -1,3 +1,4 @@
+
 WeixinActivity
 ==============
 ![ios6](https://raw.github.com/iDay/WeixinActivity/master/ios6.png)
@@ -5,10 +6,12 @@ WeixinActivity
 ![ios8](https://raw.github.com/iDay/WeixinActivity/master/ios8.png)
 
 ## Requirements
-
+```
 * iOS 6.0+
 * ARC
+* 而外添加：SystemConfiguration.framework,libz.dylib,libsqlite3.0.dylib,libc++.dylib
 
+```
 ## Installation
 
 #### From [CocoaPods](http://www.cocoapods.org)
